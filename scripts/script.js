@@ -1,3 +1,7 @@
+
+
+$(document).ready(function(){
+  
 $("#blue").click(function(){ //must be "function"
                  $("#headline").css("color", "blue");
 });
@@ -24,4 +28,6 @@ $("#headline").hover(function(){
       $("#headline").css("font-size", "50px");
   }, function(){
       $("#headline").css("font-size", "");
+});
+
 });
